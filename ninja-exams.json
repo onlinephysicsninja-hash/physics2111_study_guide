@@ -1,0 +1,1954 @@
+{
+ "exams": [
+  {
+   "id": "N1A",
+   "exam": "exam1",
+   "version": "A",
+   "situations": [
+    {
+     "intro": "A car starts from rest and accelerates uniformly at 2.5 m/s² for 6 s. It then moves at constant speed for 10 s, and finally brakes uniformly to a stop in 5 s.",
+     "questions": [
+      {
+       "type": "MC5",
+       "text": "What is the maximum speed of the car?",
+       "choices": [
+        "12.5 m/s",
+        "30 m/s",
+        "37.5 m/s",
+        "7.5 m/s",
+        "15 m/s"
+       ],
+       "answer": 4,
+       "solution": "v = at = (2.5)(6) = 15 m/s.",
+       "n": 1
+      },
+      {
+       "type": "MC5",
+       "text": "What total distance does the car travel?",
+       "choices": [
+        "315 m",
+        "150 m",
+        "233 m",
+        "195 m",
+        "270 m"
+       ],
+       "answer": 2,
+       "solution": "Area under v(t): ½(15)(6) + (15)(10) + ½(15)(5) = 45 + 150 + 37.5 = 233 m.",
+       "n": 2
+      },
+      {
+       "type": "MC3",
+       "text": "While the car is braking, its acceleration vector points",
+       "choices": [
+        "opposite to the direction of motion.",
+        "in the direction of motion.",
+        "nowhere: the acceleration is zero."
+       ],
+       "answer": 0,
+       "solution": "The car is slowing down, so a points opposite to v.",
+       "n": 3
+      }
+     ]
+    },
+    {
+     "intro": "A soccer ball is kicked from level ground with an initial speed of 18 m/s at 40° above the horizontal. Ignore air resistance.",
+     "questions": [
+      {
+       "type": "MC5",
+       "text": "How long is the ball in the air?",
+       "choices": [
+        "1.18 s",
+        "2.36 s",
+        "4.72 s",
+        "3.67 s",
+        "1.41 s"
+       ],
+       "answer": 1,
+       "solution": "T = 2v₀sinθ / g = 2(11.6)/9.81 = 2.36 s.",
+       "n": 4
+      },
+      {
+       "type": "MC5",
+       "text": "How far from the kicker does the ball land?",
+       "choices": [
+        "27.3 m",
+        "32.5 m",
+        "42.5 m",
+        "33 m",
+        "16.3 m"
+       ],
+       "answer": 1,
+       "solution": "R = v₀cosθ · T = (13.8)(2.36) = 32.5 m.",
+       "n": 5
+      },
+      {
+       "type": "MC3",
+       "text": "What is the speed of the ball at the top of its path?",
+       "choices": [
+        "0 m/s",
+        "13.8 m/s",
+        "18 m/s"
+       ],
+       "answer": 1,
+       "solution": "At the top only vᵧ is zero, so v = vₓ = v₀cosθ = 13.8 m/s.",
+       "n": 6
+      }
+     ]
+    },
+    {
+     "intro": "A stone is thrown horizontally at 8 m/s from the top of a 25 m tall cliff.",
+     "questions": [
+      {
+       "type": "MC5",
+       "text": "How far from the base of the cliff does the stone land?",
+       "choices": [
+        "12.8 m",
+        "9.03 m",
+        "18.1 m",
+        "25 m",
+        "36.1 m"
+       ],
+       "answer": 2,
+       "solution": "t = √(2h/g) = 2.26 s, so x = (8)(2.26) = 18.1 m.",
+       "n": 7
+      },
+      {
+       "type": "MC3",
+       "text": "If the stone were thrown horizontally at 16 m/s instead, the time it takes to reach the ground would",
+       "choices": [
+        "stay the same.",
+        "be cut in half.",
+        "double."
+       ],
+       "answer": 0,
+       "solution": "The vertical motion does not depend on the horizontal speed.",
+       "n": 8
+      }
+     ]
+    },
+    {
+     "intro": "A river 80 m wide flows east at 1.5 m/s. A boat moves at 4 m/s relative to the water.",
+     "questions": [
+      {
+       "type": "MC5",
+       "text": "The boat points due north. How far downstream does it land?",
+       "choices": [
+        "30 m",
+        "0 m",
+        "12 m",
+        "20 m",
+        "48 m"
+       ],
+       "answer": 0,
+       "solution": "t = W / v_boat = 20 s, drift = v_water · t = 30 m.",
+       "n": 9
+      },
+      {
+       "type": "MC5",
+       "text": "At what angle west of north must the boat point to land directly across?",
+       "choices": [
+        "26.6 °",
+        "22 °",
+        "68 °",
+        "0 °",
+        "20.6 °"
+       ],
+       "answer": 1,
+       "solution": "sin θ = v_water / v_boat = 1.5/4, θ = 22°.",
+       "n": 10
+      },
+      {
+       "type": "MC3",
+       "text": "Compared with pointing due north, the crossing time when the boat lands directly across is",
+       "choices": [
+        "shorter.",
+        "the same.",
+        "longer."
+       ],
+       "answer": 2,
+       "solution": "Only the component v_boat cos θ carries the boat across, so the crossing takes longer.",
+       "n": 11
+      }
+     ]
+    },
+    {
+     "intro": "A 4 kg block sits on a frictionless incline at 30°. It is tied by a light string over a frictionless pulley at the top of the incline to a 3 kg block hanging vertically. The blocks are released from rest.",
+     "questions": [
+      {
+       "type": "MC5",
+       "text": "What is the magnitude of the acceleration of the blocks?",
+       "choices": [
+        "1.4 m/s²",
+        "2.8 m/s²",
+        "7.01 m/s²",
+        "4.2 m/s²",
+        "0 m/s²"
+       ],
+       "answer": 0,
+       "solution": "a = (m₂g − m₁g sin30°)/(m₁ + m₂) = (29.4 − 19.6)/7 = 1.4 m/s².",
+       "n": 12
+      },
+      {
+       "type": "MC5",
+       "text": "What is the tension in the string?",
+       "choices": [
+        "29.4 N",
+        "19.6 N",
+        "25.2 N",
+        "5.61 N",
+        "33.6 N"
+       ],
+       "answer": 2,
+       "solution": "T = m₂(g − a) = 3(9.81 − 1.4) = 25.2 N.",
+       "n": 13
+      },
+      {
+       "type": "MC3",
+       "text": "Compared with the weight of the hanging block, the tension is",
+       "choices": [
+        "smaller.",
+        "equal.",
+        "larger."
+       ],
+       "answer": 0,
+       "solution": "The hanging block accelerates downward, so the net force on it points down: T < m₂g.",
+       "n": 14
+      }
+     ]
+    },
+    {
+     "intro": "A 12 kg box is dragged across a level floor at constant velocity by a rope pulling at 25° above the horizontal. The coefficients of friction are μₛ = 0.5 and μₖ = 0.35.",
+     "questions": [
+      {
+       "type": "MC5",
+       "text": "What is the tension in the rope?",
+       "choices": [
+        "41.2 N",
+        "58.9 N",
+        "37.3 N",
+        "39.1 N",
+        "45.5 N"
+       ],
+       "answer": 3,
+       "solution": "T cos25° = μₖ(mg − T sin25°), so T = μₖmg/(cos25° + μₖ sin25°) = 39.1 N.",
+       "n": 15
+      },
+      {
+       "type": "MC3",
+       "text": "The normal force on the box is",
+       "choices": [
+        "greater than mg.",
+        "less than mg.",
+        "equal to mg."
+       ],
+       "answer": 1,
+       "solution": "The rope pulls partly upward, so the floor pushes up less: N = mg − T sin25°.",
+       "n": 16
+      }
+     ]
+    },
+    {
+     "intro": "A 400 kg roller-coaster car travels upside down at the top of a vertical loop of radius 12 m with a speed of 14 m/s. The car rides on the inside of the track.",
+     "questions": [
+      {
+       "type": "MC5",
+       "text": "What is the magnitude of the normal force from the track on the car at the top?",
+       "choices": [
+        "1.05 × 10⁴ N",
+        "2610 N",
+        "6530 N",
+        "0 N",
+        "3920 N"
+       ],
+       "answer": 1,
+       "solution": "N + mg = mv²/r, so N = 400(14²/12 − 9.81) = 2610 N.",
+       "n": 17
+      },
+      {
+       "type": "MC5",
+       "text": "What is the minimum speed at the top for the car to stay in contact with the track?",
+       "choices": [
+        "24.3 m/s",
+        "10.8 m/s",
+        "23.5 m/s",
+        "15.3 m/s",
+        "5.42 m/s"
+       ],
+       "answer": 1,
+       "solution": "Contact is lost when N = 0: v = √(gr) = 10.8 m/s.",
+       "n": 18
+      }
+     ]
+    },
+    {
+     "intro": "A satellite moves in a circular orbit 2000 km above Earth's surface. (R_E = 6.37 × 10⁶ m, M_E = 5.97 × 10²⁴ kg, G = 6.67 × 10⁻¹¹ N·m²/kg²)",
+     "questions": [
+      {
+       "type": "MC5",
+       "text": "What is the orbital speed of the satellite?",
+       "choices": [
+        "3.45 km/s",
+        "6.9 km/s",
+        "4.76 km/s",
+        "9.75 km/s",
+        "7.91 km/s"
+       ],
+       "answer": 1,
+       "solution": "r = 8.37 × 10⁶ m; v = √(GM/r) = 6.9 km/s.",
+       "n": 19
+      },
+      {
+       "type": "MC5",
+       "text": "What is the period of the orbit?",
+       "choices": [
+        "2.12 h",
+        "24 h",
+        "4.24 h",
+        "1.06 h",
+        "3 h"
+       ],
+       "answer": 0,
+       "solution": "T = 2πr/v = 7620 s = 2.12 h.",
+       "n": 20
+      },
+      {
+       "type": "MC3",
+       "text": "If the satellite had twice the mass, its orbital speed at the same radius would be",
+       "choices": [
+        "the same.",
+        "half as large.",
+        "twice as large."
+       ],
+       "answer": 0,
+       "solution": "The satellite mass cancels: v = √(GM/r).",
+       "n": 21
+      }
+     ]
+    }
+   ],
+   "count": 21
+  },
+  {
+   "id": "N1B",
+   "exam": "exam1",
+   "version": "B",
+   "situations": [
+    {
+     "intro": "A ball is thrown straight up at 15 m/s from a point 2 m above the ground. Ignore air resistance.",
+     "questions": [
+      {
+       "type": "MC5",
+       "text": "What is the maximum height of the ball above the ground?",
+       "choices": [
+        "11.5 m",
+        "13.5 m",
+        "9.47 m",
+        "15 m",
+        "24.9 m"
+       ],
+       "answer": 1,
+       "solution": "h = h₀ + v₀²/2g = 2 + 11.47 = 13.5 m.",
+       "n": 1
+      },
+      {
+       "type": "MC5",
+       "text": "How long after it is thrown does the ball hit the ground?",
+       "choices": [
+        "1.53 s",
+        "3.19 s",
+        "1.66 s",
+        "3.06 s",
+        "3.44 s"
+       ],
+       "answer": 1,
+       "solution": "Solve 0 = 2 + 15t − 4.905t²: t = 3.19 s.",
+       "n": 2
+      },
+      {
+       "type": "MC3",
+       "text": "At the top of its path, the acceleration of the ball is",
+       "choices": [
+        "zero.",
+        "9.81 m/s² upward.",
+        "9.81 m/s² downward."
+       ],
+       "answer": 2,
+       "solution": "Gravity acts the whole time. Only the velocity is zero at the top.",
+       "n": 3
+      }
+     ]
+    },
+    {
+     "intro": "A car waits at a red light. The instant the light turns green, the car accelerates at 3 m/s², and at that same instant a truck passes it moving at a constant 20 m/s.",
+     "questions": [
+      {
+       "type": "MC5",
+       "text": "How long does it take the car to catch the truck?",
+       "choices": [
+        "26.7 s",
+        "6.67 s",
+        "13.3 s",
+        "10 s",
+        "3.64 s"
+       ],
+       "answer": 2,
+       "solution": "½at² = v_T t, so t = 2v_T/a = 13.3 s.",
+       "n": 4
+      },
+      {
+       "type": "MC5",
+       "text": "How fast is the car moving when it catches the truck?",
+       "choices": [
+        "60 m/s",
+        "30 m/s",
+        "26.7 m/s",
+        "20 m/s",
+        "40 m/s"
+       ],
+       "answer": 4,
+       "solution": "v = at = (3)(13.3) = 40 m/s, twice the truck's speed.",
+       "n": 5
+      },
+      {
+       "type": "MC2",
+       "text": "At the instant the car is moving as fast as the truck, the car is",
+       "choices": [
+        "behind the truck.",
+        "ahead of the truck."
+       ],
+       "answer": 0,
+       "solution": "Until then the truck has been faster, so the gap has been growing. The car is still behind.",
+       "n": 6
+      }
+     ]
+    },
+    {
+     "intro": "A ball is launched from the roof of a 30 m tall building at 12 m/s, 30° above the horizontal. Ignore air resistance.",
+     "questions": [
+      {
+       "type": "MC5",
+       "text": "How far from the base of the building does the ball land?",
+       "choices": [
+        "47.3 m",
+        "12.7 m",
+        "32.8 m",
+        "25.7 m",
+        "37.9 m"
+       ],
+       "answer": 2,
+       "solution": "Solve 0 = 30 + 6t − 4.905t²: t = 3.16 s. x = (10.4)(3.16) = 32.8 m.",
+       "n": 7
+      },
+      {
+       "type": "MC5",
+       "text": "How fast is the ball moving just before it lands?",
+       "choices": [
+        "12 m/s",
+        "24.3 m/s",
+        "31 m/s",
+        "27.1 m/s",
+        "36.3 m/s"
+       ],
+       "answer": 3,
+       "solution": "Energy: v = √(v₀² + 2gh) = √(144 + 588.6) = 27.1 m/s.",
+       "n": 8
+      },
+      {
+       "type": "MC3",
+       "text": "If the ball were launched at 30° below the horizontal with the same speed, its speed just before landing would be",
+       "choices": [
+        "the same.",
+        "larger.",
+        "smaller."
+       ],
+       "answer": 0,
+       "solution": "v = √(v₀² + 2gh) depends only on the speed and height, not the direction.",
+       "n": 9
+      }
+     ]
+    },
+    {
+     "intro": "An airplane flies at 250 km/h relative to the air. A wind blows toward the east at 60 km/h.",
+     "questions": [
+      {
+       "type": "MC5",
+       "text": "The pilot points the plane due north. What is its speed relative to the ground?",
+       "choices": [
+        "310 km/h",
+        "190 km/h",
+        "257 km/h",
+        "243 km/h",
+        "250 km/h"
+       ],
+       "answer": 2,
+       "solution": "v = √(250² + 60²) = 257 km/h.",
+       "n": 10
+      },
+      {
+       "type": "MC5",
+       "text": "To travel due north relative to the ground, the pilot should point the plane at what angle west of north?",
+       "choices": [
+        "76.1 °",
+        "0 °",
+        "14.4 °",
+        "13.9 °",
+        "13.5 °"
+       ],
+       "answer": 3,
+       "solution": "sin θ = 60/250, θ = 13.9°.",
+       "n": 11
+      }
+     ]
+    },
+    {
+     "intro": "A 70 kg student stands on a bathroom scale in an elevator.",
+     "questions": [
+      {
+       "type": "MC5",
+       "text": "The elevator accelerates upward at 1.8 m/s². What does the scale read?",
+       "choices": [
+        "813 N",
+        "126 N",
+        "705 N",
+        "561 N",
+        "687 N"
+       ],
+       "answer": 0,
+       "solution": "N − mg = ma, so N = 70(9.81 + 1.8) = 813 N.",
+       "n": 12
+      },
+      {
+       "type": "MC3",
+       "text": "Later the elevator is moving downward and slowing down. The scale reading is",
+       "choices": [
+        "equal to mg.",
+        "less than mg.",
+        "greater than mg."
+       ],
+       "answer": 2,
+       "solution": "Slowing while moving down means the acceleration points up, so N > mg.",
+       "n": 13
+      }
+     ]
+    },
+    {
+     "intro": "A horizontal force of 36 N pushes a 5 kg block, which pushes a 7 kg block in front of it across a frictionless floor.",
+     "questions": [
+      {
+       "type": "MC5",
+       "text": "What is the magnitude of the force the 5 kg block exerts on the 7 kg block?",
+       "choices": [
+        "0 N",
+        "21 N",
+        "36 N",
+        "28 N",
+        "15 N"
+       ],
+       "answer": 1,
+       "solution": "a = F/(m₁ + m₂) = 3 m/s²; the front block needs F = (7)(3) = 21 N.",
+       "n": 14
+      },
+      {
+       "type": "MC3",
+       "text": "If the same force pushed on the 7 kg block instead, the contact force between the blocks would be",
+       "choices": [
+        "the same.",
+        "smaller.",
+        "larger."
+       ],
+       "answer": 1,
+       "solution": "Now the contact force only accelerates the 5 kg block: (5)(3) = 15 N.",
+       "n": 15
+      }
+     ]
+    },
+    {
+     "intro": "A 3 kg block slides down an incline at 35°. The coefficient of kinetic friction is 0.25.",
+     "questions": [
+      {
+       "type": "MC5",
+       "text": "What is the acceleration of the block?",
+       "choices": [
+        "5.63 m/s²",
+        "3.62 m/s²",
+        "2.45 m/s²",
+        "7.64 m/s²",
+        "5.58 m/s²"
+       ],
+       "answer": 1,
+       "solution": "a = g(sin35° − μₖcos35°) = 3.62 m/s².",
+       "n": 16
+      },
+      {
+       "type": "MC3",
+       "text": "If the block were instead sliding up the incline, the magnitude of its acceleration would be",
+       "choices": [
+        "smaller.",
+        "larger.",
+        "the same."
+       ],
+       "answer": 1,
+       "solution": "Going up, gravity and friction both point down the slope: a = g(sinθ + μₖcosθ).",
+       "n": 17
+      }
+     ]
+    },
+    {
+     "intro": "A car rounds a flat (unbanked) curve of radius 50 m. The coefficient of static friction between the tires and the road is 0.6.",
+     "questions": [
+      {
+       "type": "MC5",
+       "text": "What is the maximum speed at which the car can round the curve?",
+       "choices": [
+        "29.4 m/s",
+        "17.2 m/s",
+        "5.48 m/s",
+        "22.1 m/s",
+        "24.2 m/s"
+       ],
+       "answer": 1,
+       "solution": "μₛmg = mv²/r, so v = √(μₛgr) = 17.2 m/s.",
+       "n": 18
+      },
+      {
+       "type": "MC3",
+       "text": "A heavier car on the same curve would have a maximum speed that is",
+       "choices": [
+        "larger.",
+        "smaller.",
+        "the same."
+       ],
+       "answer": 2,
+       "solution": "The mass cancels in μₛmg = mv²/r.",
+       "n": 19
+      }
+     ]
+    },
+    {
+     "intro": "A planet has half the radius of Earth and one eighth of Earth's mass. An astronaut weighs 600 N on Earth.",
+     "questions": [
+      {
+       "type": "MC5",
+       "text": "What does the astronaut weigh on the planet?",
+       "choices": [
+        "1200 N",
+        "150 N",
+        "75 N",
+        "300 N",
+        "600 N"
+       ],
+       "answer": 3,
+       "solution": "g ∝ M/R² = (1/8)/(1/2)² = 1/2, so W = 300 N.",
+       "n": 20
+      }
+     ]
+    }
+   ],
+   "count": 20
+  },
+  {
+   "id": "N2A",
+   "exam": "exam2",
+   "version": "A",
+   "situations": [
+    {
+     "intro": "A 5 kg crate starts from rest and is pushed 8 m across a level floor by a 40 N force directed 20° below the horizontal. The coefficient of kinetic friction is 0.3.",
+     "questions": [
+      {
+       "type": "MC5",
+       "text": "How much work does the pushing force do on the crate?",
+       "choices": [
+        "281 J",
+        "109 J",
+        "301 J",
+        "320 J",
+        "151 J"
+       ],
+       "answer": 2,
+       "solution": "W = Fd cos20° = (40)(8)(0.940) = 301 J.",
+       "n": 1
+      },
+      {
+       "type": "MC5",
+       "text": "What is the speed of the crate after it has moved 8 m?",
+       "choices": [
+        "5.48 m/s",
+        "11 m/s",
+        "8.56 m/s",
+        "7.75 m/s",
+        "5.5 m/s"
+       ],
+       "answer": 3,
+       "solution": "N = mg + F sin20° = 62.7 N, friction does −151 J. W_net = 150 J = ½mv², v = 7.75 m/s.",
+       "n": 2
+      },
+      {
+       "type": "MC3",
+       "text": "How much work does the normal force do on the crate?",
+       "choices": [
+        "A negative amount",
+        "A positive amount",
+        "Zero"
+       ],
+       "answer": 2,
+       "solution": "The normal force is perpendicular to the displacement.",
+       "n": 3
+      }
+     ]
+    },
+    {
+     "intro": "A toy launcher has a spring with k = 800 N/m. It is compressed 0.15 m and fires a 0.2 kg ball straight up. Treat the launch point as the release point and ignore air resistance.",
+     "questions": [
+      {
+       "type": "MC5",
+       "text": "What is the launch speed of the ball?",
+       "choices": [
+        "9.49 m/s",
+        "4.74 m/s",
+        "6.71 m/s",
+        "30 m/s",
+        "13.4 m/s"
+       ],
+       "answer": 0,
+       "solution": "½kx² = 9 J = ½mv², v = 9.49 m/s.",
+       "n": 4
+      },
+      {
+       "type": "MC5",
+       "text": "How high above the launch point does the ball rise?",
+       "choices": [
+        "6.12 m",
+        "9.17 m",
+        "3.06 m",
+        "4.59 m",
+        "2.29 m"
+       ],
+       "answer": 3,
+       "solution": "mgh = ½kx², h = 9/(0.2 × 9.81) = 4.59 m.",
+       "n": 5
+      },
+      {
+       "type": "MC3",
+       "text": "If the spring were compressed twice as far, the maximum height would be multiplied by",
+       "choices": [
+        "√2",
+        "4",
+        "2"
+       ],
+       "answer": 1,
+       "solution": "Spring energy ∝ x², so the height is 4 times larger.",
+       "n": 6
+      }
+     ]
+    },
+    {
+     "intro": "A 2 kg ball on a 1.5 m string is pulled aside until the string makes 60° with the vertical, then released from rest.",
+     "questions": [
+      {
+       "type": "MC5",
+       "text": "What is the speed of the ball at the lowest point?",
+       "choices": [
+        "1.92 m/s",
+        "3.84 m/s",
+        "5.42 m/s",
+        "4.6 m/s",
+        "2.71 m/s"
+       ],
+       "answer": 1,
+       "solution": "h = L(1 − cos60°) = 0.75 m; v = √(2gh) = 3.84 m/s.",
+       "n": 7
+      },
+      {
+       "type": "MC5",
+       "text": "What is the tension in the string at the lowest point?",
+       "choices": [
+        "39.2 N",
+        "58.9 N",
+        "19.6 N",
+        "9.81 N",
+        "29.4 N"
+       ],
+       "answer": 0,
+       "solution": "T = mg + mv²/L = 19.6 + 19.6 = 39.2 N.",
+       "n": 8
+      }
+     ]
+    },
+    {
+     "intro": "A 1200 kg car accelerates from rest to 25 m/s in 9 s on a level road. Ignore friction and air resistance.",
+     "questions": [
+      {
+       "type": "MC5",
+       "text": "What average power does the engine deliver?",
+       "choices": [
+        "375 kW",
+        "3.33 kW",
+        "30 kW",
+        "41.7 kW",
+        "83.3 kW"
+       ],
+       "answer": 3,
+       "solution": "P = ΔK/t = ½(1200)(25²)/9 = 41.7 kW.",
+       "n": 9
+      },
+      {
+       "type": "MC3",
+       "text": "To reach 50 m/s from rest in the same time, the average power would need to be multiplied by",
+       "choices": [
+        "4",
+        "2",
+        "8"
+       ],
+       "answer": 0,
+       "solution": "K ∝ v², so doubling the final speed takes 4 times the energy in the same time.",
+       "n": 10
+      }
+     ]
+    },
+    {
+     "intro": "A 1500 kg car moving east at 20 m/s rear-ends a 2500 kg truck at rest. The two vehicles lock together.",
+     "questions": [
+      {
+       "type": "MC5",
+       "text": "What is their speed just after the collision?",
+       "choices": [
+        "20 m/s",
+        "12 m/s",
+        "7.5 m/s",
+        "5 m/s",
+        "10 m/s"
+       ],
+       "answer": 2,
+       "solution": "m₁v₁ = (m₁ + m₂)v, v = 30 000/4000 = 7.5 m/s.",
+       "n": 11
+      },
+      {
+       "type": "MC5",
+       "text": "How much kinetic energy is lost in the collision?",
+       "choices": [
+        "75 kJ",
+        "300 kJ",
+        "0 kJ",
+        "113 kJ",
+        "188 kJ"
+       ],
+       "answer": 4,
+       "solution": "K before = 300 kJ, after = ½(4000)(7.5²) = 112.5 kJ, lost 188 kJ.",
+       "n": 12
+      },
+      {
+       "type": "MC3",
+       "text": "During the collision, the force of the truck on the car is",
+       "choices": [
+        "larger than the force of the car on the truck.",
+        "equal in size to the force of the car on the truck.",
+        "smaller than the force of the car on the truck."
+       ],
+       "answer": 1,
+       "solution": "Newton's third law: the forces are equal and opposite.",
+       "n": 13
+      }
+     ]
+    },
+    {
+     "intro": "A 0.5 kg ball moving at 4 m/s makes a head-on elastic collision with a 1.5 kg ball at rest.",
+     "questions": [
+      {
+       "type": "MC5",
+       "text": "What is the velocity of the 0.5 kg ball after the collision?",
+       "choices": [
+        "0",
+        "2.0 m/s forward",
+        "4.0 m/s backward",
+        "1.0 m/s forward",
+        "2.0 m/s backward"
+       ],
+       "answer": 4,
+       "solution": "v₁′ = (m₁ − m₂)/(m₁ + m₂) · v = (−1/2)(4) = -2 m/s, so 2.0 m/s backward.",
+       "n": 14
+      },
+      {
+       "type": "MC5",
+       "text": "What is the speed of the 1.5 kg ball after the collision?",
+       "choices": [
+        "2 m/s",
+        "1 m/s",
+        "1.33 m/s",
+        "2.67 m/s",
+        "4 m/s"
+       ],
+       "answer": 0,
+       "solution": "v₂′ = 2m₁/(m₁ + m₂) · v = (0.5)(4) = 2 m/s.",
+       "n": 15
+      }
+     ]
+    },
+    {
+     "intro": "A 0.15 kg baseball arrives at a bat at 35 m/s and leaves in the opposite direction at 45 m/s. The ball is in contact with the bat for 1.2 ms.",
+     "questions": [
+      {
+       "type": "MC5",
+       "text": "What is the magnitude of the average force of the bat on the ball?",
+       "choices": [
+        "4380 N",
+        "5630 N",
+        "1.00 × 10⁴ N",
+        "12 N",
+        "1250 N"
+       ],
+       "answer": 2,
+       "solution": "Δp = 0.15(35 + 45) = 12 kg·m/s; F = Δp/Δt = 1.00 × 10⁴ N.",
+       "n": 16
+      },
+      {
+       "type": "MC2",
+       "text": "The impulse on the ball points",
+       "choices": [
+        "in the direction of the ball's final velocity.",
+        "in the direction of the ball's initial velocity."
+       ],
+       "answer": 0,
+       "solution": "Δp = p_f − p_i points along the final velocity here.",
+       "n": 17
+      }
+     ]
+    },
+    {
+     "intro": "A ceiling fan starts from rest and speeds up uniformly to 900 rpm in 6.0 s. Its blades are 0.40 m long.",
+     "questions": [
+      {
+       "type": "MC5",
+       "text": "What is the angular acceleration of the fan?",
+       "choices": [
+        "7.85 rad/s²",
+        "94.2 rad/s²",
+        "15.7 rad/s²",
+        "2.5 rad/s²",
+        "150 rad/s²"
+       ],
+       "answer": 2,
+       "solution": "ω = 900 × 2π/60 = 94.2 rad/s; α = ω/t = 15.7 rad/s².",
+       "n": 18
+      },
+      {
+       "type": "MC5",
+       "text": "How many revolutions does the fan make during these 6.0 s?",
+       "choices": [
+        "22.5 rev",
+        "7.2 rev",
+        "45 rev",
+        "90 rev",
+        "283 rev"
+       ],
+       "answer": 2,
+       "solution": "θ = ½αt² = 283 rad = 45 rev.",
+       "n": 19
+      },
+      {
+       "type": "MC3",
+       "text": "Compared with the blade tip, a point halfway along the blade has",
+       "choices": [
+        "the same angular speed and half the linear speed.",
+        "half the angular speed and the same linear speed.",
+        "the same angular speed and the same linear speed."
+       ],
+       "answer": 0,
+       "solution": "Every point on a rigid body shares ω, and v = ωr.",
+       "n": 20
+      }
+     ]
+    },
+    {
+     "intro": "A 2.0 kg uniform rod 1.2 m long has a 0.50 kg point mass attached at each end.",
+     "questions": [
+      {
+       "type": "MC5",
+       "text": "What is the moment of inertia about an axis through the center of the rod, perpendicular to it?",
+       "choices": [
+        "0.96 kg·m²",
+        "0.6 kg·m²",
+        "1.2 kg·m²",
+        "0.24 kg·m²",
+        "0.36 kg·m²"
+       ],
+       "answer": 1,
+       "solution": "I = (1/12)(2)(1.2²) + 2(0.5)(0.6²) = 0.24 + 0.36 = 0.6 kg·m².",
+       "n": 21
+      }
+     ]
+    }
+   ],
+   "count": 21
+  },
+  {
+   "id": "N2B",
+   "exam": "exam2",
+   "version": "B",
+   "situations": [
+    {
+     "intro": "A 4 kg block is released from rest at the top of a ramp 3 m high. On the way down, friction does −40 J of work on it.",
+     "questions": [
+      {
+       "type": "MC5",
+       "text": "What is the speed of the block at the bottom of the ramp?",
+       "choices": [
+        "6.23 m/s",
+        "7.67 m/s",
+        "8.88 m/s",
+        "4.47 m/s",
+        "4.41 m/s"
+       ],
+       "answer": 0,
+       "solution": "½mv² = mgh − 40 = 77.7 J, v = 6.23 m/s.",
+       "n": 1
+      },
+      {
+       "type": "MC3",
+       "text": "The change in the mechanical energy of the block is",
+       "choices": [
+        "+40 J",
+        "0",
+        "−40 J"
+       ],
+       "answer": 2,
+       "solution": "Non-conservative work changes mechanical energy: ΔE = W_friction = −40 J.",
+       "n": 2
+      }
+     ]
+    },
+    {
+     "intro": "A 2 kg block slides at 3 m/s across a frictionless floor and runs into a spring with k = 450 N/m.",
+     "questions": [
+      {
+       "type": "MC5",
+       "text": "What is the maximum compression of the spring?",
+       "choices": [
+        "0.0133 m",
+        "0.04 m",
+        "0.283 m",
+        "0.141 m",
+        "0.2 m"
+       ],
+       "answer": 4,
+       "solution": "½mv² = ½kx², x = v√(m/k) = 0.2 m.",
+       "n": 3
+      },
+      {
+       "type": "MC5",
+       "text": "What is the speed of the block when the spring is compressed 0.10 m?",
+       "choices": [
+        "1.5 m/s",
+        "2.12 m/s",
+        "2.6 m/s",
+        "3 m/s",
+        "2.25 m/s"
+       ],
+       "answer": 2,
+       "solution": "½mv² = 9 − ½(450)(0.1²) = 6.75 J, v = 2.6 m/s.",
+       "n": 4
+      },
+      {
+       "type": "MC3",
+       "text": "The magnitude of the block's acceleration is largest",
+       "choices": [
+        "halfway to maximum compression.",
+        "at the moment it first touches the spring.",
+        "at maximum compression."
+       ],
+       "answer": 2,
+       "solution": "The spring force kx is largest when x is largest.",
+       "n": 5
+      }
+     ]
+    },
+    {
+     "intro": "A force acts on a 3.0 kg cart along the x axis. It rises linearly from 0 at x = 0 to 30 N at x = 4.0 m, then stays at 30 N until x = 6.0 m. The cart starts from rest on a frictionless track.",
+     "questions": [
+      {
+       "type": "MC5",
+       "text": "How much work does the force do from x = 0 to x = 6.0 m?",
+       "choices": [
+        "90 J",
+        "120 J",
+        "60 J",
+        "150 J",
+        "180 J"
+       ],
+       "answer": 1,
+       "solution": "Area under F(x): ½(4)(30) + (2)(30) = 60 + 60 = 120 J.",
+       "n": 6
+      },
+      {
+       "type": "MC5",
+       "text": "What is the speed of the cart at x = 6.0 m?",
+       "choices": [
+        "6.32 m/s",
+        "8.94 m/s",
+        "12.6 m/s",
+        "11 m/s",
+        "7.75 m/s"
+       ],
+       "answer": 1,
+       "solution": "½(3)v² = 120 J, v = 8.94 m/s.",
+       "n": 7
+      }
+     ]
+    },
+    {
+     "intro": "A 60 kg skier leaves the top of a 40 m high frictionless hill moving at 5.0 m/s.",
+     "questions": [
+      {
+       "type": "MC5",
+       "text": "What is the skier's speed at the bottom?",
+       "choices": [
+        "23 m/s",
+        "28 m/s",
+        "33 m/s",
+        "28.3 m/s",
+        "28.5 m/s"
+       ],
+       "answer": 4,
+       "solution": "v = √(v₀² + 2gh) = √(25 + 784.8) = 28.5 m/s.",
+       "n": 8
+      },
+      {
+       "type": "MC3",
+       "text": "A heavier skier starting the same way would reach the bottom with a speed that is",
+       "choices": [
+        "smaller.",
+        "larger.",
+        "the same."
+       ],
+       "answer": 2,
+       "solution": "The mass cancels in the energy equation.",
+       "n": 9
+      }
+     ]
+    },
+    {
+     "intro": "An 80 kg astronaut floating at rest outside a space station throws a 4.0 kg wrench at 6.0 m/s.",
+     "questions": [
+      {
+       "type": "MC5",
+       "text": "What is the astronaut's recoil speed?",
+       "choices": [
+        "120 m/s",
+        "6 m/s",
+        "0.05 m/s",
+        "0.3 m/s",
+        "0.316 m/s"
+       ],
+       "answer": 3,
+       "solution": "Momentum: 80v = (4)(6), v = 0.3 m/s.",
+       "n": 10
+      },
+      {
+       "type": "MC3",
+       "text": "After the throw, the kinetic energy of the wrench is",
+       "choices": [
+        "less than the astronaut's.",
+        "equal to the astronaut's.",
+        "greater than the astronaut's."
+       ],
+       "answer": 2,
+       "solution": "Equal momenta: K = p²/2m, so the smaller mass has more kinetic energy.",
+       "n": 11
+      }
+     ]
+    },
+    {
+     "intro": "A 1000 kg car moving east at 15 m/s collides at an intersection with a 1500 kg car moving north at 10 m/s. The cars stick together.",
+     "questions": [
+      {
+       "type": "MC5",
+       "text": "What is the speed of the wreck just after the collision?",
+       "choices": [
+        "25 m/s",
+        "8.49 m/s",
+        "18 m/s",
+        "6 m/s",
+        "10 m/s"
+       ],
+       "answer": 1,
+       "solution": "pₓ = 15 000, pᵧ = 15 000 kg·m/s. v = √(pₓ² + pᵧ²)/2500 = 8.49 m/s.",
+       "n": 12
+      },
+      {
+       "type": "MC5",
+       "text": "In what direction does the wreck move just after the collision?",
+       "choices": [
+        "56.3° north of east",
+        "due east",
+        "33.7° north of east",
+        "45.0° north of east",
+        "due north"
+       ],
+       "answer": 3,
+       "solution": "pᵧ = pₓ, so the angle is 45° north of east.",
+       "n": 13
+      }
+     ]
+    },
+    {
+     "intro": "Three small objects lie on the x axis: 2.0 kg at x = 0, 3.0 kg at x = 2.0 m and 5.0 kg at x = 4.0 m.",
+     "questions": [
+      {
+       "type": "MC5",
+       "text": "Where is the center of mass?",
+       "choices": [
+        "3 m",
+        "2.67 m",
+        "2 m",
+        "1.3 m",
+        "2.6 m"
+       ],
+       "answer": 4,
+       "solution": "x_cm = (2·0 + 3·2 + 5·4)/10 = 2.6 m.",
+       "n": 14
+      },
+      {
+       "type": "MC2",
+       "text": "The objects sit on frictionless ice and push each other apart. The center of mass",
+       "choices": [
+        "moves toward the 5.0 kg object.",
+        "stays where it is."
+       ],
+       "answer": 1,
+       "solution": "Internal forces cannot move the center of mass of an isolated system.",
+       "n": 15
+      }
+     ]
+    },
+    {
+     "intro": "A 0.020 kg bullet is fired into a 2.0 kg wooden block hanging from a long string. The bullet embeds in the block, and the block swings up 0.12 m.",
+     "questions": [
+      {
+       "type": "MC5",
+       "text": "What was the bullet's speed just before impact?",
+       "choices": [
+        "153 m/s",
+        "155 m/s",
+        "1.53 m/s",
+        "15.5 m/s",
+        "1550 m/s"
+       ],
+       "answer": 1,
+       "solution": "After: v = √(2gh) = 1.53 m/s. Before: v_bullet = (2.02/0.02)(1.53) = 155 m/s.",
+       "n": 16
+      },
+      {
+       "type": "MC3",
+       "text": "During the very short collision itself, which quantity is conserved?",
+       "choices": [
+        "Momentum only",
+        "Kinetic energy only",
+        "Both momentum and kinetic energy"
+       ],
+       "answer": 0,
+       "solution": "The collision is perfectly inelastic: momentum is conserved, kinetic energy is not.",
+       "n": 17
+      }
+     ]
+    },
+    {
+     "intro": "A car moves at 72 km/h. Its tires have a radius of 0.35 m and roll without slipping.",
+     "questions": [
+      {
+       "type": "MC5",
+       "text": "What is the angular speed of the tires?",
+       "choices": [
+        "9.09 rad/s",
+        "57.1 rad/s",
+        "7 rad/s",
+        "206 rad/s",
+        "28.6 rad/s"
+       ],
+       "answer": 1,
+       "solution": "v = 20 m/s; ω = v/R = 57.1 rad/s.",
+       "n": 18
+      }
+     ]
+    },
+    {
+     "intro": "A solid disk of mass 8.0 kg and radius 0.30 m spins at 120 rpm about its central axis.",
+     "questions": [
+      {
+       "type": "MC5",
+       "text": "What is its rotational kinetic energy?",
+       "choices": [
+        "28.4 J",
+        "4.52 J",
+        "14.2 J",
+        "56.8 J",
+        "2590 J"
+       ],
+       "answer": 0,
+       "solution": "I = ½MR² = 0.36 kg·m², ω = 12.6 rad/s, K = ½Iω² = 28.4 J.",
+       "n": 19
+      },
+      {
+       "type": "MC3",
+       "text": "A thin ring with the same mass and radius spinning at the same rate has a kinetic energy that is",
+       "choices": [
+        "twice as large.",
+        "half as large.",
+        "the same."
+       ],
+       "answer": 0,
+       "solution": "I_ring = MR² is twice I_disk = ½MR².",
+       "n": 20
+      }
+     ]
+    }
+   ],
+   "count": 20
+  },
+  {
+   "id": "N3A",
+   "exam": "exam3",
+   "version": "A",
+   "situations": [
+    {
+     "intro": "A mechanic pulls on the end of a 0.25 m wrench with an 80 N force directed at 60° to the wrench handle.",
+     "questions": [
+      {
+       "type": "MC5",
+       "text": "What is the magnitude of the torque on the bolt?",
+       "choices": [
+        "17.3 N·m",
+        "10 N·m",
+        "320 N·m",
+        "20 N·m",
+        "34.6 N·m"
+       ],
+       "answer": 0,
+       "solution": "τ = rF sinφ = (0.25)(80)(sin60°) = 17.3 N·m.",
+       "n": 1
+      }
+     ]
+    },
+    {
+     "intro": "A 1.0 kg block hangs from a light rope wrapped around a pulley that is a uniform solid disk (M = 2.0 kg, R = 0.10 m). The pulley turns without friction, and the block is released from rest.",
+     "questions": [
+      {
+       "type": "MC5",
+       "text": "What is the acceleration of the block?",
+       "choices": [
+        "4.91 m/s²",
+        "3.27 m/s²",
+        "6.54 m/s²",
+        "9.81 m/s²",
+        "2.45 m/s²"
+       ],
+       "answer": 0,
+       "solution": "mg − T = ma and TR = ½MR²(a/R) → a = mg/(m + M/2) = 4.91 m/s².",
+       "n": 2
+      },
+      {
+       "type": "MC5",
+       "text": "What is the tension in the rope?",
+       "choices": [
+        "3.27 N",
+        "6.54 N",
+        "4.91 N",
+        "9.81 N",
+        "0 N"
+       ],
+       "answer": 2,
+       "solution": "T = m(g − a) = 4.91 N.",
+       "n": 3
+      },
+      {
+       "type": "MC3",
+       "text": "If the pulley were a thin ring with the same mass and radius, the block's acceleration would be",
+       "choices": [
+        "smaller.",
+        "larger.",
+        "the same."
+       ],
+       "answer": 0,
+       "solution": "A ring has a larger moment of inertia, so it resists turning more.",
+       "n": 4
+      }
+     ]
+    },
+    {
+     "intro": "A solid sphere (m = 2.0 kg, R = 0.10 m) rolls without slipping from rest down an incline. It descends a vertical height of 1.5 m.",
+     "questions": [
+      {
+       "type": "MC5",
+       "text": "What is the speed of the sphere at the bottom?",
+       "choices": [
+        "5.42 m/s",
+        "4.58 m/s",
+        "4.43 m/s",
+        "6.46 m/s",
+        "3.84 m/s"
+       ],
+       "answer": 1,
+       "solution": "mgh = ½mv² + ½(⅖mR²)(v/R)² = (7/10)mv² → v = √(10gh/7) = 4.58 m/s.",
+       "n": 5
+      },
+      {
+       "type": "MC5",
+       "text": "What fraction of the sphere's kinetic energy at the bottom is rotational?",
+       "choices": [
+        "50.0%",
+        "33.3%",
+        "28.6%",
+        "71.4%",
+        "40.0%"
+       ],
+       "answer": 2,
+       "solution": "K_rot/K = (⅖)/(1 + ⅖) = 2/7 = 28.6%.",
+       "n": 6
+      },
+      {
+       "type": "MC3",
+       "text": "How much work does static friction do on the sphere while it rolls?",
+       "choices": [
+        "Zero",
+        "A positive amount",
+        "A negative amount"
+       ],
+       "answer": 0,
+       "solution": "The contact point is momentarily at rest, so static friction does no work.",
+       "n": 7
+      }
+     ]
+    },
+    {
+     "intro": "A uniform 6.0 m plank of mass 30 kg rests on supports at its two ends. A 70 kg person stands 1.5 m from the left end.",
+     "questions": [
+      {
+       "type": "MC5",
+       "text": "What upward force does the right support exert?",
+       "choices": [
+        "319 N",
+        "981 N",
+        "662 N",
+        "490 N",
+        "343 N"
+       ],
+       "answer": 0,
+       "solution": "Torques about the left end: R(6) = (30g)(3) + (70g)(1.5), R = 319 N.",
+       "n": 8
+      },
+      {
+       "type": "MC5",
+       "text": "What upward force does the left support exert?",
+       "choices": [
+        "981 N",
+        "319 N",
+        "662 N",
+        "638 N",
+        "490 N"
+       ],
+       "answer": 2,
+       "solution": "ΣF = 0: L = 100g − R = 662 N.",
+       "n": 9
+      },
+      {
+       "type": "MC3",
+       "text": "As the person walks toward the right end, the force from the left support",
+       "choices": [
+        "stays the same.",
+        "decreases.",
+        "increases."
+       ],
+       "answer": 1,
+       "solution": "More of the weight shifts onto the right support.",
+       "n": 10
+      }
+     ]
+    },
+    {
+     "intro": "A figure skater spins at 2.0 rev/s with her arms out (I = 4.0 kg·m²). She pulls her arms in, reducing her moment of inertia to 1.6 kg·m².",
+     "questions": [
+      {
+       "type": "MC5",
+       "text": "What is her new rate of spin?",
+       "choices": [
+        "12.5 rev/s",
+        "0.8 rev/s",
+        "2 rev/s",
+        "3.16 rev/s",
+        "5 rev/s"
+       ],
+       "answer": 4,
+       "solution": "I₁ω₁ = I₂ω₂: ω₂ = (4.0)(2.0)/1.6 = 5 rev/s.",
+       "n": 11
+      },
+      {
+       "type": "MC3",
+       "text": "Her rotational kinetic energy",
+       "choices": [
+        "decreases.",
+        "increases.",
+        "stays the same."
+       ],
+       "answer": 1,
+       "solution": "K = L²/2I. L is fixed and I drops, so K rises. Her muscles do the work.",
+       "n": 12
+      }
+     ]
+    },
+    {
+     "intro": "A 30 kg child runs at 4.0 m/s along a line tangent to the edge of a merry-go-round and jumps on at its edge. The merry-go-round is a uniform disk of mass 120 kg and radius 2.0 m, initially at rest.",
+     "questions": [
+      {
+       "type": "MC5",
+       "text": "What is the angular speed of the merry-go-round just after the child lands?",
+       "choices": [
+        "1 rad/s",
+        "2 rad/s",
+        "0.667 rad/s",
+        "0.333 rad/s",
+        "0.4 rad/s"
+       ],
+       "answer": 2,
+       "solution": "L = mvR = 240 kg·m²/s; I = ½(120)(2²) + 30(2²) = 360 kg·m²; ω = 0.667 rad/s.",
+       "n": 13
+      },
+      {
+       "type": "MC3",
+       "text": "Compared with before the jump, the total kinetic energy afterward is",
+       "choices": [
+        "more.",
+        "less.",
+        "the same."
+       ],
+       "answer": 1,
+       "solution": "This is an inelastic \"collision\": L is conserved but kinetic energy is not.",
+       "n": 14
+      }
+     ]
+    },
+    {
+     "intro": "A constant torque of 6.0 N·m acts on a wheel (I = 1.5 kg·m²) that starts at rest.",
+     "questions": [
+      {
+       "type": "MC5",
+       "text": "What is the angular momentum of the wheel after 4.0 s?",
+       "choices": [
+        "36 kg·m²/s",
+        "9 kg·m²/s",
+        "4 kg·m²/s",
+        "16 kg·m²/s",
+        "24 kg·m²/s"
+       ],
+       "answer": 4,
+       "solution": "ΔL = τΔt = (6.0)(4.0) = 24 kg·m²/s.",
+       "n": 15
+      }
+     ]
+    },
+    {
+     "intro": "A 0.80 kg block on a horizontal frictionless surface is attached to a spring with k = 200 N/m. It oscillates with an amplitude of 0.10 m.",
+     "questions": [
+      {
+       "type": "MC5",
+       "text": "What is the period of the oscillation?",
+       "choices": [
+        "0.0636 s",
+        "2.52 s",
+        "0.199 s",
+        "0.397 s",
+        "15.8 s"
+       ],
+       "answer": 3,
+       "solution": "ω = √(k/m) = 15.8 rad/s; T = 2π/ω = 0.397 s.",
+       "n": 16
+      },
+      {
+       "type": "MC5",
+       "text": "What is the maximum speed of the block?",
+       "choices": [
+        "15.8 m/s",
+        "2.5 m/s",
+        "1 m/s",
+        "1.58 m/s",
+        "0.158 m/s"
+       ],
+       "answer": 3,
+       "solution": "v_max = Aω = (0.10)(15.8) = 1.58 m/s.",
+       "n": 17
+      },
+      {
+       "type": "MC3",
+       "text": "When the block is at x = A/2, its speed is what fraction of v_max?",
+       "choices": [
+        "0.71",
+        "0.50",
+        "0.87"
+       ],
+       "answer": 2,
+       "solution": "½kA² = ½k(A/2)² + ½mv² → v = (√3/2)v_max ≈ 0.87 v_max.",
+       "n": 18
+      }
+     ]
+    },
+    {
+     "intro": "A simple pendulum has a period of 2.0 s on Earth. It is taken to a planet where g is one quarter of its value on Earth.",
+     "questions": [
+      {
+       "type": "MC5",
+       "text": "What is its period on the planet?",
+       "choices": [
+        "1 s",
+        "0.5 s",
+        "4 s",
+        "2.83 s",
+        "8 s"
+       ],
+       "answer": 2,
+       "solution": "T ∝ 1/√g; g/4 doubles the period to 4.0 s.",
+       "n": 19
+      },
+      {
+       "type": "MC3",
+       "text": "If the amplitude of the swing were doubled (still small), the period would",
+       "choices": [
+        "stay the same.",
+        "double.",
+        "increase by √2."
+       ],
+       "answer": 0,
+       "solution": "For small oscillations the period does not depend on amplitude.",
+       "n": 20
+      }
+     ]
+    }
+   ],
+   "count": 20
+  },
+  {
+   "id": "N3B",
+   "exam": "exam3",
+   "version": "B",
+   "situations": [
+    {
+     "intro": "A door is 1.0 m wide. You push with a 40 N force at a point 0.50 m from the hinges, at 45° to the door.",
+     "questions": [
+      {
+       "type": "MC5",
+       "text": "What torque do you exert about the hinges?",
+       "choices": [
+        "14.1 N·m",
+        "20 N·m",
+        "40 N·m",
+        "10 N·m",
+        "28.3 N·m"
+       ],
+       "answer": 0,
+       "solution": "τ = rF sinφ = (0.5)(40)(sin45°) = 14.1 N·m.",
+       "n": 1
+      }
+     ]
+    },
+    {
+     "intro": "An Atwood machine has masses of 3.0 kg and 5.0 kg on either side of a pulley that is a uniform solid disk (M = 4.0 kg, R = 0.15 m). The rope does not slip and the axle is frictionless.",
+     "questions": [
+      {
+       "type": "MC5",
+       "text": "What is the magnitude of the acceleration of the masses?",
+       "choices": [
+        "2.45 m/s²",
+        "0.981 m/s²",
+        "1.96 m/s²",
+        "1.64 m/s²",
+        "3.92 m/s²"
+       ],
+       "answer": 2,
+       "solution": "a = (m₂ − m₁)g/(m₁ + m₂ + M/2) = (2)(9.81)/10 = 1.96 m/s².",
+       "n": 2
+      },
+      {
+       "type": "MC5",
+       "text": "What is the tension in the rope on the 3.0 kg side?",
+       "choices": [
+        "36.8 N",
+        "49.1 N",
+        "29.4 N",
+        "35.3 N",
+        "39.2 N"
+       ],
+       "answer": 3,
+       "solution": "T₁ = m₁(g + a) = 3(9.81 + 1.96) = 35.3 N.",
+       "n": 3
+      },
+      {
+       "type": "MC3",
+       "text": "How do the tensions on the two sides compare?",
+       "choices": [
+        "They are equal.",
+        "The tension on the 3.0 kg side is larger.",
+        "The tension on the 5.0 kg side is larger."
+       ],
+       "answer": 2,
+       "solution": "A net torque is needed to give the massive pulley its angular acceleration, so T₂ > T₁.",
+       "n": 4
+      }
+     ]
+    },
+    {
+     "intro": "A thin hoop and a solid cylinder, with the same mass and radius, are released together from rest at the top of the same incline and roll without slipping. The top is 2.0 m above the bottom.",
+     "questions": [
+      {
+       "type": "MC3",
+       "text": "Which reaches the bottom first?",
+       "choices": [
+        "The solid cylinder",
+        "They tie",
+        "The hoop"
+       ],
+       "answer": 0,
+       "solution": "The cylinder has a smaller I/MR², so less of its energy goes into rotation.",
+       "n": 5
+      },
+      {
+       "type": "MC5",
+       "text": "What is the speed of the hoop at the bottom?",
+       "choices": [
+        "5.11 m/s",
+        "3.13 m/s",
+        "4.43 m/s",
+        "5.29 m/s",
+        "6.26 m/s"
+       ],
+       "answer": 2,
+       "solution": "mgh = ½mv² + ½(mR²)(v/R)² = mv² → v = √(gh) = 4.43 m/s.",
+       "n": 6
+      }
+     ]
+    },
+    {
+     "intro": "A grinding wheel is a uniform disk of mass 5.0 kg and radius 0.20 m, spinning at 300 rad/s. A tool is pressed against its rim with a normal force of 40 N, and the coefficient of kinetic friction is 0.60.",
+     "questions": [
+      {
+       "type": "MC5",
+       "text": "What is the magnitude of the angular acceleration of the wheel?",
+       "choices": [
+        "48 rad/s²",
+        "96 rad/s²",
+        "24 rad/s²",
+        "240 rad/s²",
+        "4.8 rad/s²"
+       ],
+       "answer": 0,
+       "solution": "τ = μN·R = (0.6)(40)(0.2) = 4.8 N·m; I = ½MR² = 0.1 kg·m²; α = τ/I = 48 rad/s².",
+       "n": 7
+      },
+      {
+       "type": "MC5",
+       "text": "How long does the wheel take to stop?",
+       "choices": [
+        "0.16 s",
+        "3.12 s",
+        "12.5 s",
+        "62.5 s",
+        "6.25 s"
+       ],
+       "answer": 4,
+       "solution": "t = ω/α = 300/48 = 6.25 s.",
+       "n": 8
+      }
+     ]
+    },
+    {
+     "intro": "A uniform horizontal beam 4.0 m long with a mass of 20 kg is hinged to a wall at one end. A cable attached to the other end makes a 30° angle with the beam. A 50 kg sign hangs from the end of the beam.",
+     "questions": [
+      {
+       "type": "MC5",
+       "text": "What is the tension in the cable?",
+       "choices": [
+        "1180 N",
+        "589 N",
+        "1360 N",
+        "687 N",
+        "2350 N"
+       ],
+       "answer": 0,
+       "solution": "Torques about the hinge: T sin30°(4) = (20g)(2) + (50g)(4), T = 1180 N.",
+       "n": 9
+      },
+      {
+       "type": "MC5",
+       "text": "What is the horizontal force the hinge exerts on the beam?",
+       "choices": [
+        "1180 N",
+        "589 N",
+        "1020 N",
+        "0 N",
+        "687 N"
+       ],
+       "answer": 2,
+       "solution": "ΣFₓ = 0: H = T cos30° = 1020 N.",
+       "n": 10
+      },
+      {
+       "type": "MC3",
+       "text": "If the cable were attached to the wall higher up, so it made a larger angle with the beam, the tension would",
+       "choices": [
+        "increase.",
+        "stay the same.",
+        "decrease."
+       ],
+       "answer": 2,
+       "solution": "A larger angle gives a larger perpendicular component, so less tension is needed for the same torque.",
+       "n": 11
+      }
+     ]
+    },
+    {
+     "intro": "Disk A (I = 0.50 kg·m²) spins at 30 rad/s. Disk B (I = 1.0 kg·m²), initially not spinning, is dropped onto it along the same axle, and the disks stick together.",
+     "questions": [
+      {
+       "type": "MC5",
+       "text": "What is the final angular speed?",
+       "choices": [
+        "15 rad/s",
+        "20 rad/s",
+        "10 rad/s",
+        "30 rad/s",
+        "7.5 rad/s"
+       ],
+       "answer": 2,
+       "solution": "I_Aω_A = (I_A + I_B)ω, ω = (0.5)(30)/1.5 = 10 rad/s.",
+       "n": 12
+      },
+      {
+       "type": "MC5",
+       "text": "What fraction of the initial kinetic energy is lost?",
+       "choices": [
+        "66.7%",
+        "100%",
+        "33.3%",
+        "50.0%",
+        "0%"
+       ],
+       "answer": 0,
+       "solution": "K_f/K_i = I_A/(I_A + I_B) = 1/3, so 2/3 is lost.",
+       "n": 13
+      }
+     ]
+    },
+    {
+     "intro": "A 2.0 kg ball moves at a constant 5.0 m/s in the +x direction along the line y = 3.0 m.",
+     "questions": [
+      {
+       "type": "MC5",
+       "text": "What is the magnitude of the ball's angular momentum about the origin?",
+       "choices": [
+        "50 kg·m²/s",
+        "10 kg·m²/s",
+        "15 kg·m²/s",
+        "30 kg·m²/s",
+        "0 kg·m²/s"
+       ],
+       "answer": 3,
+       "solution": "L = mvr⊥ = (2)(5)(3) = 30 kg·m²/s.",
+       "n": 14
+      },
+      {
+       "type": "MC3",
+       "text": "As the ball moves along the line, its angular momentum about the origin",
+       "choices": [
+        "decreases.",
+        "stays constant.",
+        "increases."
+       ],
+       "answer": 1,
+       "solution": "No force acts, so no torque acts, and the perpendicular distance stays 3.0 m.",
+       "n": 15
+      }
+     ]
+    },
+    {
+     "intro": "A 0.50 kg block on a spring moves according to x(t) = (0.12 m) cos(8.0t), with t in seconds.",
+     "questions": [
+      {
+       "type": "MC5",
+       "text": "What is the spring constant?",
+       "choices": [
+        "128 N/m",
+        "16 N/m",
+        "32 N/m",
+        "0.25 N/m",
+        "4 N/m"
+       ],
+       "answer": 2,
+       "solution": "ω² = k/m, so k = (0.5)(8²) = 32 N/m.",
+       "n": 16
+      },
+      {
+       "type": "MC5",
+       "text": "What is the total mechanical energy of the oscillation?",
+       "choices": [
+        "0.0288 J",
+        "1.92 J",
+        "0.461 J",
+        "0.115 J",
+        "0.23 J"
+       ],
+       "answer": 4,
+       "solution": "E = ½kA² = ½(32)(0.12²) = 0.23 J.",
+       "n": 17
+      },
+      {
+       "type": "MC3",
+       "text": "If the mass were four times larger (same spring), the period would",
+       "choices": [
+        "double.",
+        "quadruple.",
+        "be cut in half."
+       ],
+       "answer": 0,
+       "solution": "T = 2π√(m/k) ∝ √m.",
+       "n": 18
+      }
+     ]
+    },
+    {
+     "intro": "A 0.30 kg mass hangs at rest from a vertical spring, which it stretches by 6.0 cm.",
+     "questions": [
+      {
+       "type": "MC5",
+       "text": "If the mass is pulled down slightly and released, what is the period of oscillation?",
+       "choices": [
+        "0.491 s",
+        "0.347 s",
+        "0.0782 s",
+        "0.983 s",
+        "2.04 s"
+       ],
+       "answer": 0,
+       "solution": "k = mg/Δy = 49.1 N/m; T = 2π√(m/k) = 2π√(Δy/g) = 0.491 s.",
+       "n": 19
+      }
+     ]
+    },
+    {
+     "intro": "You want to build a simple pendulum with a period of 1.5 s on Earth.",
+     "questions": [
+      {
+       "type": "MC5",
+       "text": "How long should the pendulum be?",
+       "choices": [
+        "0.559 m",
+        "3.51 m",
+        "2.34 m",
+        "0.0891 m",
+        "0.373 m"
+       ],
+       "answer": 0,
+       "solution": "L = g(T/2π)² = 9.81(1.5/2π)² = 0.559 m.",
+       "n": 20
+      }
+     ]
+    }
+   ],
+   "count": 20
+  }
+ ]
+}
